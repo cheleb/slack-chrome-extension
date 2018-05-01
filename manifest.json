@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Slack share",
+  "description": "This extension shows allow to quickly bookmark a page in http://slack.com",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://slack.com/"
+  ]
+}
